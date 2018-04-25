@@ -1,7 +1,8 @@
-let arr = [1, 1, 2, 3];
+const arr = [1, 1, 2, 3];
+const str = 'string'
 
 function doSomething(array) {
-  array.push('string');
+  array.push(str);
   return array;
 }
 
